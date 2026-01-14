@@ -27,8 +27,14 @@ Esse é um pequeno robô feito para automatizar a tarefa de mover arquivos de um
 
 ## Como executar a Automação
 
-Em Desenvolvimento!
-Essa seção será adicionada após a implementação. 
+- **Configurar** o endereço para as pastas de origem e de destino.
+**OU**
+- **Manter** a configuração como está no código.
+
+```csharp
+string sourceDir = @"C:\Input";
+string destDir = @"C:\Output";
+```
 
 
 ## Diagrama de funcionamento
@@ -45,4 +51,17 @@ Z --> C
 D -- Sim --> E[Renomear arquivos]
 E --> F[Mover arquivos para a pasta de destino]
 F --> Z
+```
+
+## Estrutura do projeto
+```mermaid
+graph TD
+A[MoverArquivos] --> B[src]
+A --> C[.gitignore]
+A --> D[MoverArquivos.slnx]
+A --> E[README.md]
+B --> F[MoverArquivos]
+F --> G[Program.cs]
+F --> H[Services]
+H --> I[FileMoveService.cs]
 ```
