@@ -17,6 +17,3 @@ graph TD
 A[Automações em C Sharp] --> B[README.md]
 A --> C[MoverArquivos]
 ```
-
-# Automacoes-C-Sharp
-Monorepo com Automações em linguagem C Sharp.
