@@ -17,4 +17,6 @@ graph LR
 A[Automações em C Sharp] --> B[README.md]
 A --> C[MoverArquivos]
 A --> D[MonitorEmail]
+A --> E[RPAChallenge]
+A --> F[TabelaWebParaExcel]
 ```
